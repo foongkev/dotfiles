@@ -1,0 +1,17 @@
+!-------------------------------------------------------------------------------
+! Declare collegiate colour variables
+!-------------------------------------------------------------------------------
+
+#define c_black1       #101010
+#define c_black2       #B1A3FE
+#define c_red          #358DCA
+#define c_green        #40B1FF
+#define c_yellow       #AED4D7
+#define c_blue         #889CB6
+#define c_magenta      #82A9B9
+#define c_cyan         #85B3C5
+#define c_white        #D6D6D6
+
+#define termbg        rgba:0000/0000/0000/A600
+#define termfg        #f7f7f7
+
