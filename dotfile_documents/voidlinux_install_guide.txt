@@ -1,0 +1,80 @@
+!##############################################################################
+! Void Linux Installation and Ricing Guide
+!##############################################################################
+
+Contents
+1. Base installation
+2. Post installation setup
+3. Install preferred apps
+4. Ricing
+
+!##############################################################################
+! 1. Base installation
+!##############################################################################
+
+# Boot ISO and follow installation steps
+Mount ISO, boot into login prompt
+Login as root password voidlinux
+Run voidlinux-installer
+Follow steps, complete install
+Reboot
+
+!##############################################################################
+! 2. Post installation setup
+!##############################################################################
+# First, install zsh, oh-my-zsh and vim to speed up typing
+login as root
+xbps-install -S zsh oh-my-zsh vim
+
+# Load dotfiles and create required symlinks
+mkdir ~/dotfiles
+Mount USB and copy dotfiles
+Create symlinks using symlinks.sh script
+
+# Change shell for root and user
+chsh -s /bin/zsh root
+chsh -s /bin/zsh kevox
+login as kevox and run zsh to start configurationA (if required)
+choose ZSH_THEME="robbyrussell"
+
+# Add kevox to sudoers file
+export EDITOR=vim
+visudo
+
+# Now configure aliases in .zprofile to speed up typing (if no dotfiles)
+vim .zprofile
+alias install='sudo xbps-install -S'
+alias update='sudo xbps-install -Su'
+alias cp='cp -vi'
+alias mv='mv -v'
+Save file
+source .zprofile (to load aliases)
+
+# Ensure all packages are updated. This is important to ensure linux headers
+# and other modules are built on the most up to date kernel
+run xbps-install -Su
+reboot
+run xbps-install -Su again
+reboot
+
+# Optional: Install virtual guest additions
+install linux-headers dbus
+install virtualbox-ose-guest virtualbox-ose (virtualbox-ose is only needed if there is an issue with starting X)
+reboot
+sudo ln -s /etc/sv/dbus /var/service/
+sudo ln -s /etc/sv/vboxservice /var/service/
+
+# Remove additional ttys, and other unused daemons/services
+sv status
+
+# Install all required programs
+xbps-install -S xorg-minimal xorg-fonts bspwm sxhkd compton-git rofi dunst qutebrowser rxvt-unicode font-hack-ttf htop ranger hsetroot wget
+(need to install alsa?)
+
+
+!##############################################################################
+! IRC Channels
+!##############################################################################
+Unixporn
+Arch linux
+Qute browser

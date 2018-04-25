@@ -1,0 +1,18 @@
+# Aliases
+alias lah='ls -lAh'
+alias l='ls'
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias rm='rm -vi'
+alias cd..='cd ..'
+alias install='sudo xbps-install -S'
+alias update='sudo xbps-install -Su'
+
+# Add scripts directory
+PATH=$PATH:$HOME/dotfiles/scripts
+export PATH
+
+# Add path for panel output
+export PANEL_FIFO="/tmp/panel-fifo"
+export PATH=$PATH:~/dotfiles/bspwm/panel/
+

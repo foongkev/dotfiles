@@ -1,0 +1,10 @@
+!Refer to http://paletton.com/#uid=13J0u0kiCFn8GVde7NVmtwSqXtg for colour palette
+!Dark Grey 		#17181A
+!Lightest Blue 		#F3F3FF
+!Main Light Blue 	#B5C9F0
+!Slight Light Blue	#85A2DC
+!Mid Blue		#5E81C5
+!Blue			#3F64AC
+!Highlight Blue		#264D9B
+!Text Blue		#061739
+

@@ -1,0 +1,86 @@
+!Refer to http://paletton.com/#uid=13J0u0kiCFn8GVde7NVmtwSqXtg for colour palette
+!Dark Grey 		#17181A
+!Lightest Blue 		#F3F3FF
+!Main Light Blue 	#B5C9F0
+!Slight Light Blue	#85A2DC
+!Mid Blue		#5E81C5
+!Blue			#3F64AC
+!Highlight Blue		#264D9B
+!Text Blue		#061739
+
+!-------------------------------------------------------------------------------
+! Variables
+!-------------------------------------------------------------------------------
+#define mybg		#F3F3FF
+!#define mytxt		#061739
+#define mytxt		#265D9B
+#define myhl		#264D9B
+
+!-------------------------------------------------------------------------------
+! Xft settings
+!-------------------------------------------------------------------------------
+
+Xft.dpi:                    192
+Xft.antialias:              true
+Xft.rgba:                   rgb
+Xft.hinting:                true
+Xft.hintstyle:              hintslight
+
+!-------------------------------------------------------------------------------
+! URxvt settings
+!-------------------------------------------------------------------------------
+
+URxvt.depth:                32
+URxvt.geometry:             90x30
+URxvt.transparent:          false
+URxvt.fading:               0
+URxvt.shading:		    40
+URxvt.loginShell:           true
+URxvt.saveLines:            200
+URxvt.internalBorder:       10
+URxvt.lineSpace:            0
+
+! Colours
+URxvt.background:           mybg
+URxvt.foreground:           mytxt
+
+! Fonts
+!URxvt.allow_bold:          false
+!URxvt.font: xft:Hack:pixelsize=16
+!URxvt.font: xft:gohufont:pixelsize=14
+URxvt.font: xft:Terminus:style=Regular:pixelsize=14
+URxvt.boldFont: xft:Terminus:style=Bold:pixelsize=14
+URxvt.letterSpace: 	    -1
+
+! Scrollbar
+URxvt.scrollStyle:          rxvt
+URxvt.scrollBar:            false
+
+! Perl extensions
+URxvt.perl-lib:             /usr/lib/urxvt/perl
+URxvt.perl-ext-common:      default,matcher
+URxvt.perl-matcher:	    1
+URxvt.matcher.button:       1
+URxvt.urlLauncher:          qutebrowser
+
+! Cursor
+URxvt.cursorBlink:          true
+URxvt.cursorUnderline:      false
+URxvt.pointerBlank:         true
+
+! Rofi configuration
+rofi.columns:		3
+rofi.lines:		10
+rodi.width:		50
+rofi.padding:		30
+!rofi.font:		Hack 14
+!rofi.font:		gohufont 14
+rofi.font:              terminus 16
+
+! Rofi Colours
+! State: 		'bg',	'fg',	'bgalt','hlbg',	'hlfg',
+rofi.color-normal:	mybg,mytxt,	mybg,#264D9B,mybg
+rofi.color-urgent:	mybg,mytxt,	mybg,#264D9B,mybg
+rofi.color-active:	mybg,mytxt,	mybg,#264D9B,mybg
+! Window:		'bg',	'border''separator'
+rofi.color-window:	mybg,myhl,	#85A2DC

@@ -1,0 +1,60 @@
+#################################################
+#               To do list                      #
+#################################################
+
+-------------------------------------------------
+Configure linux
+-------------------------------------------------
+1.   Learn and configure bspwm
+1.1  Configure sxhkd keybinds for bspwm 
+1.2  Learn bspwm commands
+1.3  Update bspwm configuration with colours
+1.4  Configure interim polybar
+
+2.   XResources
+2.1 Configure Xresrouces
+2.2 Clean up Xresources
+2.3 Split up Xresources into modular files
+
+3.  Zsh
+3.1 Choose theme
+3.2 Configure Zsh
+3.3 Configuure aliases
+3.4 Write scripts
+
+4   Vim
+4.1 Learn Vim
+4.1.1   Repeat vimtutor
+4.1.2   Create vim cheatsheet
+4.1.3   Read :help
+4.2 Configure vimrc
+4.3 Install plugins
+
+5   Rofi
+5.1 Configure Rofi colors
+5.2 Add icon support
+5.3 Configure layout
+
+6.  ncmpcpp
+6.1 Configure ncmpcpp
+6.2 Configure Spotify playlist
+
+7.  Advanced configurations
+7.1 Configure bar
+7.2 Configure dunst
+
+8.  Clean up
+8.1 Clean up dotfiles folders
+8.2 Update dotfiles scripts
+
+9.  Misc
+9.1 Configure qutebrowser 
+
+-------------------------------------------------
+Courses to learn
+-------------------------------------------------
+1.  Learn vim
+2.  Learn github
+3.  Learn python
+4.  Learn css
+5.  Watch TheAlternative.ch youtube linux channel
