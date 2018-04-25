@@ -13,11 +13,11 @@ rofi.padding:		30
 
 ! Rofi Colours
 ! State: 		'bg',	'fg',	'bgalt','hlbg',	'hlfg',
-rofi.color-normal:	#0F0F0F,termfg,	#0F0F0F,termfg,#0F0F0F
-rofi.color-urgent:	#0F0F0F,termfg,	#0F0F0F,termfg,#0F0F0F
-rofi.color-active:	#0F0F0F,termfg,	#0F0F0F,termfg,#0F0F0F
+rofi.color-normal:	#FF000000,termfg,	#FF000000,#FF000000,c_blue
+rofi.color-urgent:	#FF000000,termfg,	#FF000000,#FF000000,c_blue
+rofi.color-active:	#FF000000,termfg,	#FF000000,#FF000000,c_blue
 ! Window:		'bg',	'border''separator'
-rofi.color-window:	#0F0F0F,#889CB6,#889CB6
+rofi.color-window:	#A6000000,#889CB6,#889CB6
 
 ! "Enabled modi" Set from: Default
 ! rofi.modi:                           window,run,ssh
