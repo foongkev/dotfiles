@@ -1,10 +1,10 @@
 #! /bin/sh
 
-sudo ln -s ~/dotfiles/zsh/.zprofile ~/
-sudo ln -s ~/dotfiles/zsh/.zshrc ~/
-sudo ln -s ~/dotfiles/sxhkd/ ~/.config
-sudo ln -s ~/dotfiles/polybar/ ~/.config
-sudo ln -s ~/dotfiles/bspwm/ ~/.config
-sudo ln -s ~/dotfiles/compton/compton.conf ~/.config
-sudo ln -s ~/dotfiles/vimrc/.vimrc ~/
-sudo ln -s ~/dotfiles/.vim ~/
+sudo ln -sf ~/dotfiles/zsh/.zprofile ~/
+sudo ln -sf ~/dotfiles/zsh/.zshrc ~/
+sudo ln -sf ~/dotfiles/sxhkd/ ~/.config
+sudo ln -sf ~/dotfiles/polybar/ ~/.config
+sudo ln -sf ~/dotfiles/bspwm/ ~/.config
+sudo ln -sf ~/dotfiles/compton/compton.conf ~/.config
+sudo ln -sf ~/dotfiles/vimrc/vimrc ~/
+sudo ln -sf ~/dotfiles/.vim ~/
