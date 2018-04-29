@@ -7,3 +7,4 @@ sudo ln -s ~/dotfiles/polybar/ ~/.config
 sudo ln -s ~/dotfiles/bspwm/ ~/.config
 sudo ln -s ~/dotfiles/compton/compton.conf ~/.config
 sudo ln -s ~/dotfiles/vimrc/.vimrc ~/
+sudo ln -s ~/dotfiles/.vim ~/

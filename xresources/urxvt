@@ -71,7 +71,7 @@ URxvt*boldfont: xft:TamzenForPowerLine:style=Bold:pixelsize=20
 !Urxvt.boldfont: -misc-tamzenforpowerline-bold-r-normal--20-145-100-100-c-100-iso10646-1
 
 ! Fix font space
-URxvt*letterSpace: -1
+!URxvt*letterSpace: -1
 
 ! Scrollbar
 URxvt.scrollStyle:          rxvt

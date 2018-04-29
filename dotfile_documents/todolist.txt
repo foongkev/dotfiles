@@ -55,6 +55,9 @@ Courses to learn
 -------------------------------------------------
 1.  Learn vim
 2.  Learn github
+    https://git-scm.com/book/en/v2
 3.  Learn python
 4.  Learn css
 5.  Watch TheAlternative.ch youtube linux channel
+6.  Learn LateX
+    https://www.overleaf.com/latex/learn/free-online-introduction-to-latex-part-1

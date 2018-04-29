@@ -9,13 +9,14 @@ rofi.padding:		30
 !rofi.font:		Hack 14
 !rofi.font:		gohufont 14
 !rofi.font:              terminus 16
-!rofi.font:              TamzenForPowerline 20
+rofi.font:              misc TamzenForPowerline 16
+!rofi.font:	xft:TamzenForPowerLine:style=Regular:pixelsize=20
 
 ! Rofi Colours
 ! State: 		'bg',	'fg',	'bgalt','hlbg',	'hlfg',
-rofi.color-normal:	#FF000000,termfg,	#FF000000,#FF000000,c_blue
-rofi.color-urgent:	#FF000000,termfg,	#FF000000,#FF000000,c_blue
-rofi.color-active:	#FF000000,termfg,	#FF000000,#FF000000,c_blue
+rofi.color-normal:	#00000000,termfg,	#00000000,#00000000,c_blue
+rofi.color-urgent:	#00000000,termfg,	#00000000,#00000000,c_blue
+rofi.color-active:	#00000000,termfg,	#00000000,#00000000,c_blue
 ! Window:		'bg',	'border''separator'
 rofi.color-window:	#A6000000,#889CB6,#889CB6
 

@@ -2,13 +2,14 @@
 
 /bin/sh ~/dotfiles/scripts/autostart.sh
 
-bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor -d I II III IV
 
 bspc config focused_border_color "#4E6698"
 bspc config normal_border_color "#6D7275"
 
-bspc config border_width         2
+bspc config border_width         5
 bspc config window_gap          30
+bspc config top_padding         60
 
 bspc config split_ratio          0.50
 bspc config borderless_monocle   true
