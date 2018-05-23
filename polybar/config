@@ -47,7 +47,7 @@ font-1 = Hack:fontformat=truetype:size=16:antialias=false;0
 
 modules-left = bspwm xwindow
 modules-center = 
-modules-right = battery date
+modules-right = volume battery date
 
 wm-restack = bspwm
 ;override-redirect = true

@@ -1,7 +1,29 @@
 #
 # wm independent hotkeys
 #
-
+#
+# VOLUME
+ 
+### Mute
+XF86AudioMute
+    amixer set Master toggle
+ 
+### Master Volume
+XF86AudioRaiseVolume
+    amixer set Master 5%+
+ 
+XF86AudioLowerVolume
+    amixer set Master 5%-
+ 
+# BRIGHTNESS
+ 
+# Brightness goes up
+XF86MonBrightnessUp
+    xbacklight -inc 10
+# Brightness goes down
+XF86MonBrightnessDown
+    xbacklight -dec 10
+ 
 # terminal emulator
 super + Return
 	urxvt
