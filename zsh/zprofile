@@ -1,12 +1,12 @@
 # Aliases
 alias lah='ls -lAh'
-alias l='ls'
+alias l='ls -la'
 alias cp='cp -iv'
 alias mv='mv -iv'
 alias rm='rm -vi'
 alias cd..='cd ..'
-alias install='sudo xbps-install -S'
-alias update='sudo xbps-install -Su'
+alias install='sudo pacman -S'
+alias update='sudo pacman -Syu'
 
 # Add scripts directory
 PATH=$PATH:$HOME/dotfiles/scripts
