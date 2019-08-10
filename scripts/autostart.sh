@@ -19,7 +19,7 @@ xset 3600 4800 6000
 xrdb -load ~/dotfiles/xresources/Xresources
 
 # Set white background (Should change this to wallpaper)
-hsetroot -fill ~/dotfiles/wallpapers/artsfon.com-27292.jpg
+#hsetroot -fill ~/dotfiles/wallpapers/artsfon.com-27292.jpg
 
 # Change resolution
 xrandr --output VGA-1 --mode 2560x1440
@@ -27,7 +27,7 @@ xrandr --output VGA-1 --mode 2560x1440
 # Load programs
 sxhkd &
 compton &
-dunst &
+#dunst &
 
 #panel &
-exec /bin/sh ~/dotfiles/scripts/polybar.sh
+#exec /bin/sh ~/dotfiles/scripts/polybar.sh

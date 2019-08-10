@@ -62,8 +62,10 @@ URxvt.lineSpace:            0
 URxvt.allow_bold:           false
 !URxvt.font:                 -*-terminus-medium-r-normal-*-12-120-72-72-c-60-iso8859-1
 !URxvt*font: xft:Misc Tamsyn:pixelsize=16
-URxvt*font: xft:TamzenForPowerLine:style=Regular:pixelsize=20
-URxvt*boldfont: xft:TamzenForPowerLine:style=Bold:pixelsize=20
+URxvt*font: xft:Source Code Pro:style=Regular:pixelsize=16
+URxvt*boldfont: xft:Source Code Pro:style=Bold:pixelsize=16
+!URxvt*font: xft:TamzenForPowerLine:style=Regular:pixelsize=20
+!URxvt*boldfont: xft:TamzenForPowerLine:style=Bold:pixelsize=20
 !URxvt.font: -misc-tamzenforpowerline-medium-r-normal--16-116-100-100-c-80-iso8859-1
 !URxvt.boldfont: -misc-tamzenforpowerline-bold-r-normal--16-116-100-100-c-80-iso8859-1
 !URxvt*font: xft:Hack:pixelsize=14

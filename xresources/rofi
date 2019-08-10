@@ -11,6 +11,7 @@ rofi.padding:		30
 !rofi.font:              terminus 16
 rofi.font:              misc TamzenForPowerline 16
 !rofi.font:	xft:TamzenForPowerLine:style=Regular:pixelsize=20
+rofi.show-icons:        true
 
 ! Rofi Colours
 ! State: 		'bg',	'fg',	'bgalt','hlbg',	'hlfg',

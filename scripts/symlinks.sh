@@ -8,3 +8,4 @@ sudo ln -sf ~/dotfiles/bspwm/ ~/.config
 sudo ln -sf ~/dotfiles/compton/compton.conf ~/.config
 sudo ln -sf ~/dotfiles/vimrc/vimrc ~/
 sudo ln -sf ~/dotfiles/.vim ~/
+sudo ln -sfv ~/dotfiles/rofi/ ~/.config
